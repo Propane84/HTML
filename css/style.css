@@ -1,0 +1,46 @@
+
+
+
+
+
+ H1 {
+  color: #000080;
+  font-size: 200%;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+}
+
+.text-block{
+display: flex;
+flex-wrap: wrap;
+}
+
+.mypic { 
+ width: 100%;
+height: auto;
+padding-left: 10%;
+    margin:0 auto;
+    width: 40%; 
+    padding: 15px; 
+    border: solid 1px black; 
+    float: left; 
+    position: relative;
+    object-fit: cover; 
+    }
+    
+.text {  
+    padding-left: 10%;
+    width: 40%; 
+    margin:0 auto;
+
+    padding: 15px; 
+    border: solid 1px black; 
+    float: left; 
+    position: relative; 
+    }
+
+    @media (max-width: 992px) {
+        .mypic {width: 100%}
+        p {width: 100%}
+        }
+        
